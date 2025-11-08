@@ -1,5 +1,5 @@
-export default function page() {
+export default function Profile() {
   return (
-    <div>page</div>
+    <div>Profile</div>
   )
 }
