@@ -7,7 +7,7 @@ export const events = pgTable("events", {
   category: varchar("category", { length: 100 }).notNull(),              
   datetime: timestamp("datetime").notNull(),                              
   location: varchar("location", { length: 255 }).notNull(),               
-  price: text("price").notNull(),                               
+  price: integer("price").notNull(),                               
 });
 export const users = pgTable("users", {
   id: serial().primaryKey(),

@@ -5,7 +5,7 @@ CREATE TABLE "events" (
 	"category" varchar(100) NOT NULL,
 	"datetime" timestamp NOT NULL,
 	"location" varchar(255) NOT NULL,
-	"price_info" text NOT NULL
+	"price" integer NOT NULL
 );
 --> statement-breakpoint
 CREATE TABLE "users" (

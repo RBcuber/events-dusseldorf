@@ -1,5 +1,5 @@
 {
-  "id": "b8e21a2e-ff5f-4504-81f6-5f02bbe4a1c7",
+  "id": "291fdd76-afc3-45c8-b1ac-4db7ce1fae24",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -55,9 +55,9 @@
           "primaryKey": false,
           "notNull": true
         },
-        "price_info": {
-          "name": "price_info",
-          "type": "text",
+        "price": {
+          "name": "price",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         }
