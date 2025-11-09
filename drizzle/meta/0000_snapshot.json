@@ -1,5 +1,5 @@
 {
-  "id": "06a86569-e209-4169-9678-fc49c1ddd893",
+  "id": "b8e21a2e-ff5f-4504-81f6-5f02bbe4a1c7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -33,7 +33,31 @@
         },
         "description": {
           "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "datetime": {
+          "name": "datetime",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "location": {
+          "name": "location",
           "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "price_info": {
+          "name": "price_info",
+          "type": "text",
           "primaryKey": false,
           "notNull": true
         }
@@ -41,22 +65,7 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {
-        "events_title_unique": {
-          "name": "events_title_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "title"
-          ]
-        },
-        "events_description_unique": {
-          "name": "events_description_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "description"
-          ]
-        }
-      },
+      "uniqueConstraints": {},
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false

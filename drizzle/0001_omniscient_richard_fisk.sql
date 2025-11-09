@@ -1,0 +1,1 @@
+ALTER TABLE "events" RENAME COLUMN "price_info" TO "price";
