@@ -1,12 +1,14 @@
-import { date, integer, pgTable, serial, text, varchar } from "drizzle-orm/pg-core";
+import { integer, pgTable, serial, text, timestamp, varchar } from "drizzle-orm/pg-core";
 
 export const events = pgTable("events", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
-  title: varchar({ length: 255 }).notNull().unique(),
-  description: varchar({ length: 255 }).notNull().unique(),
-  date: date("date"),
+  title: varchar("title", { length: 255 }).notNull(),        
+  description: text("description").notNull(),                            
+  category: varchar("category", { length: 100 }).notNull(),              
+  datetime: timestamp("datetime").notNull(),                              
+  location: varchar("location", { length: 255 }).notNull(),               
+  price: integer("price").notNull(),                               
 });
-
 export const users = pgTable("users", {
   id: serial().primaryKey(),
   name: varchar({ length: 255 }).notNull(),
