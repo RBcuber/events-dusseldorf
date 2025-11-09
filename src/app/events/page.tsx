@@ -1,3 +1,4 @@
+import EventListSort from "@/src/components/eventListSort.tsx/eventListSort";
 import { db } from "@/src/db";
 import { events as eventsDusseldorf } from "@/src/db/schema"
 
@@ -6,12 +7,14 @@ const EventsPage = async ({}) => {
   return (
     <div className="max-w-5xl mx-auto p-6 bg-blue-600">
       <section className="bg-white/80 dark:bg-gray-900/60 backdrop-blur rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Events</h2>
+        <h2 className="text-2xl text-center font-bold text-gray-900 dark:text-white mb-4">Events</h2>
+
+<EventListSort/>
 
         {events.length === 0 ? (
           <p className="text-sm text-gray-600 dark:text-gray-300">No upcoming events.</p>
         ) : (
-          <ul className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
             {events.map((event) => (
               <li
                 key={event.id}
