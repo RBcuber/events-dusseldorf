@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mb-4"></div>
 
         <div className="flex justify-around space-x-6 text-sm">
-          <Link href="/home" className="hover:underline">Home</Link>
+          <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
           <Link href="/about" className="hover:underline">About</Link>
           <Link href="/faq" className="hover:underline">FAQ</Link>
