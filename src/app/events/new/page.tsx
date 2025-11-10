@@ -1,5 +1,7 @@
 export default function CreateEvent() {
   return (
-    <div>CreateEvent</div>
-  )
+    <div>
+      <div>CreateEvent</div>
+    </div>
+  );
 }
