@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/it/FrontEnd/Project-Ait/events-dusseldorf/src/components/footer/footer.tsx"],"sourcesContent":["/*\nexport default function Footer() {\n  return (\n    <footer className=\"w-full py-4 bg-gray-100 text-center text-gray-600 border-t\">\n      <p>© {new Date().getFullYear()} Events Düsseldorf. All rights reserved.</p>\n    </footer>\n  );\n}\n\n*/\n\nconst Footer = () => {\n    return (\n        <div>footer</div>\n    );\n};\n\nexport default Footer;\n\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAEA,MAAM,SAAS;IACX,qBACI,sQAAC;kBAAI;;;;;;AAEb;uCAEe","debugId":null}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/it/FrontEnd/Project-Ait/events-dusseldorf/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,8IACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

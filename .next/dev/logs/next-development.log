@@ -1,0 +1,1899 @@
+[00:00:00.573] Server  LOG      ✓ Ready in 403ms
+[00:00:01.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:56.516] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:26.784] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:19:1
+Parsing ecmascript source code failed
+  17 | export default Footer;
+  18 | 
+> 19 | 
+     | ^
+
+Unterminated block comment
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:27.332] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:19:1
+Parsing ecmascript source code failed
+  17 | export default Footer;
+  18 | 
+> 19 | 
+     | ^
+
+Unterminated block comment
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:28.956] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:20:1
+Parsing ecmascript source code failed
+  18 | export default Footer;
+  19 | 
+> 20 | 
+     | ^
+
+Unterminated block comment
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:29.332] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:20:1
+Parsing ecmascript source code failed
+  18 | export default Footer;
+  19 | 
+> 20 | 
+     | ^
+
+Unterminated block comment
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:30.537] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:1
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     | ^
+  11 | /*
+  12 | const Footer = () => {
+  13 |     return (
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:30.537] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:2
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     |  ^
+  11 | /*
+  12 | const Footer = () => {
+  13 |     return (
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:31.332] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:1
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     | ^
+  11 | /*
+  12 | const Footer = () => {
+  13 |     return (
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:31.333] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:2
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     |  ^
+  11 | /*
+  12 | const Footer = () => {
+  13 |     return (
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:33.393] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:1
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     | ^
+  11 |
+  12 | const Footer = () => {
+  13 |     return (
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:33.393] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:2
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     |  ^
+  11 |
+  12 | const Footer = () => {
+  13 |     return (
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:34.332] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:1
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     | ^
+  11 |
+  12 | const Footer = () => {
+  13 |     return (
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:34.332] Browser ERROR   ./events-dusseldorf/src/components/footer/footer.tsx:10:2
+Parsing ecmascript source code failed
+   8 | }
+   9 |
+> 10 | */
+     |  ^
+  11 |
+  12 | const Footer = () => {
+  13 |     return (
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./events-dusseldorf/src/components/footer/footer.tsx
+    ./events-dusseldorf/src/app/layout.tsx
+[00:03:36.139] Server  LOG      ✓ Compiled in 16ms
+[00:03:46.152] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:38:1
+Parsing ecmascript source code failed
+  36 |   );
+  37 | }
+> 38 | */
+     | ^
+
+Expression expected
+[00:03:46.152] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:38:2
+Parsing ecmascript source code failed
+  36 |   );
+  37 | }
+> 38 | */
+     |  ^
+
+Unterminated regexp literal
+[00:03:46.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:38:1
+Parsing ecmascript source code failed
+  36 |   );
+  37 | }
+> 38 | */
+     | ^
+
+Expression expected
+[00:03:46.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:38:2
+Parsing ecmascript source code failed
+  36 |   );
+  37 | }
+> 38 | */
+     |  ^
+
+Unterminated regexp literal
+[00:03:50.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:58.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:35.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:36.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:51.332] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:63:3
+Parsing ecmascript source code failed
+  61 |
+  62 |
+> 63 | /*
+     |   ^
+
+Unterminated block comment
+[00:04:51.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:63:3
+Parsing ecmascript source code failed
+  61 |
+  62 |
+> 63 | /*
+     |   ^
+
+Unterminated block comment
+[00:05:01.669] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:63:1
+Parsing ecmascript source code failed
+  61 |   );
+  62 | }
+> 63 | 
+     | ^
+
+Unterminated block comment
+[00:05:02.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:63:1
+Parsing ecmascript source code failed
+  61 |   );
+  62 | }
+> 63 | 
+     | ^
+
+Unterminated block comment
+[00:07:38.985] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.986] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.987] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.987] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.988] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.988] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.989] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.989] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.990] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.990] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.991] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.993] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.994] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.994] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.995] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.995] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.996] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.996] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:38.997] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.003] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.005] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.006] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.008] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.015] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.016] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.016] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.017] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.017] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.017] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.018] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:39.332] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:39.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.184] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:45.308] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.332] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.629] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.702] Browser ERROR   uncaughtError: Error: ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:45.851] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:46.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:46.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:46.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.407] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:48.486] Browser ERROR   uncaughtError: Error: ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:48.622] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:49.332] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:49.332] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:54.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:05.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:09.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:13.225] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.226] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.226] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.227] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.227] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.227] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.230] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.231] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.232] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.232] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.233] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.233] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.233] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.234] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.234] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.234] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.235] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.235] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.236] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.236] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.237] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.237] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.238] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.238] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.238] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.243] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.243] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.244] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:13.369] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:14.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/ooter'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/ooter"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:15.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:17.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:19.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:13.442] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.443] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.445] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.446] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.446] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.446] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.449] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.449] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.450] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.451] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.452] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.452] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.452] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.453] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.454] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.455] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.457] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.457] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.457] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.457] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.458] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.459] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.459] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.460] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.461] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.461] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.462] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:13.463] Server  ERROR    ⨯ ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:14.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:14.333] Browser ERROR   ./events-dusseldorf/src/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/footer/Footer'
+  3 | import "./globals.css";
+  4 | import Header from "../components/header/header";
+> 5 | import Footer from "../components/footer/Footer"; // ⬅️ добавляем импорт футера
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geistSans = Geist({
+  8 |   variable: "--font-geist-sans",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:19.252] Server  LOG      ✓ Compiled in 51ms
+[00:09:19.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:32.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

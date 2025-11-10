@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/741f6_next_dist_compiled_7421d3cd._.js",
+      "static/chunks/741f6_next_dist_shared_lib_81a8edfa._.js",
+      "static/chunks/741f6_next_dist_client_8e28d323._.js",
+      "static/chunks/741f6_next_dist_adb02735._.js",
+      "static/chunks/741f6_next_app_f73bbecb.js",
+      "static/chunks/[next]_entry_page-loader_ts_7f2f88ca._.js",
+      "static/chunks/741f6_react-dom_1ef7a0db._.js",
+      "static/chunks/741f6_31e3b56d._.js",
+      "static/chunks/[root-of-the-server]__9ce878f3._.js",
+      "static/chunks/events-dusseldorf_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-events-dusseldorf_pages__app_6a95927e._.js"
+    ],
+    "/_error": [
+      "static/chunks/741f6_next_dist_compiled_7421d3cd._.js",
+      "static/chunks/741f6_next_dist_shared_lib_77c072a8._.js",
+      "static/chunks/741f6_next_dist_client_8e28d323._.js",
+      "static/chunks/741f6_next_dist_921b85eb._.js",
+      "static/chunks/741f6_next_error_71ea0732.js",
+      "static/chunks/[next]_entry_page-loader_ts_c6131ef8._.js",
+      "static/chunks/741f6_react-dom_1ef7a0db._.js",
+      "static/chunks/741f6_31e3b56d._.js",
+      "static/chunks/[root-of-the-server]__8acdd4aa._.js",
+      "static/chunks/events-dusseldorf_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-events-dusseldorf_pages__error_c5570a63._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/741f6_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7f8199d7._.js",
+    "static/chunks/741f6_next_dist_compiled_react-dom_0ab513b1._.js",
+    "static/chunks/741f6_next_dist_compiled_react-server-dom-turbopack_68f2fbdc._.js",
+    "static/chunks/741f6_next_dist_compiled_next-devtools_index_647de1c5.js",
+    "static/chunks/741f6_next_dist_compiled_a9b6bb36._.js",
+    "static/chunks/741f6_next_dist_client_06a1961e._.js",
+    "static/chunks/741f6_next_dist_33128a28._.js",
+    "static/chunks/741f6_@swc_helpers_cjs_8e3d4df4._.js",
+    "static/chunks/events-dusseldorf_a0ff3932._.js",
+    "static/chunks/turbopack-events-dusseldorf_55b3ffb3._.js"
+  ]
+}
