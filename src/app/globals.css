@@ -3,28 +3,30 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent: rgba(43, 43, 198, 0.767); 
-}
-.dark{
-  --background: #171717;
-  --foreground: #ffffff;
-  --accent: rgba(13, 13, 118, 0.751); 
-}
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-accent: var(--accent); 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --white: #ffffff;
+  --gray: #8e8d8a;
+  --bg-light: #e2ded6;
+  --text-dark: #2e2a27;
+  --accent: #711cb2;
+  --secondary: #9dadb4;
+  --border: #e9e9e9;
+  --neutral: #cfc7c3;
+  --dark: #213d3f;
+  --dark-alt: #373e40;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme inline {
+  --color-white: var(--white);
+  --color-gray: var(--gray);
+  --color-bg-light: var(--bg-light);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
+  --color-neutral: var(--neutral);
+  --color-dark: var(--dark);
+  --color-dark-alt: var(--dark-alt);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 body {

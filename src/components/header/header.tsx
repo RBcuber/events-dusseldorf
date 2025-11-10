@@ -1,30 +1,68 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
-const Header = () => {
+export default function Header() {
+  const pathname = usePathname();
+  const [search, setSearch] = useState("");
+
+  const links = [
+    { href: "/", label: "Home" },
+    { href: "/events", label: "Events" },
+    { href: "/about", label: "About" },
+    { href: "/help", label: "FAQ" },
+    { href: "/profile", label: "Profile" },
+
+  ];
   return (
-    <div>
-      <nav className="bg-white p-4">
-        <div className="flex space-x-6 justify-center">
-          <Link href={"/home"}>Home</Link>
-          <Link href={"/events"}>Events</Link>
-          <Link href={"/about"}>About</Link>
-          <Link href={"/faq"}>FAQ</Link>
-          <button
-            type="button"
-            className="bg-white text-violet-600 border-2 px-3 py-1.5 rounded-lg"
-          >
-            <Link href={"/events/new"}>Create event</Link>
-          </button>
-          <button
-            type="button"
-            className="bg-violet-600 text-white border-none px-3 py-1.5 rounded-lg"
-          >
-            <Link href={"/sign-up"}>Sign up</Link>
-          </button>
+    <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+      <div className="flex items-center gap-8">
+        <div className="flex items-center gap-3">
+          <div className="w-7 h-7 rounded-full bg-accent" />
+          <span className="text-lg font-medium text-dark">
+           <Link href={"/"}> Event <b>Dusseldorf</b> </Link>
+          </span>
         </div>
-      </nav>
-    </div>
-  );
-};
+          <nav className="flex gap-6">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`hover:text-accent transition ${
+                  pathname === link.href
+                    ? "text-accent"
+                    : "text-gray"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+      </div>
+      <div className="flex items-center gap-4">
+        <input
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search events..."
+          className="bg-bg-light text-dark px-4 py-2 rounded-lg outline-none w-48 focus:bg-neutral transition"
+        />
 
-export default Header;
+        <Link
+          href="/events/new"
+          className="px-4 py-2 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
+        >
+          Create Event
+        </Link>
+
+        <Link
+          href="/signup"
+          className="px-4 py-2 rounded-lg bg-accent text-white font-semibold hover:opacity-90 transition"
+        >
+          Sign up
+        </Link>
+      </div>
+    </header>
+  );
+}
