@@ -19,7 +19,7 @@ export default function HelpPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10">
+    <div className="w-full mx-auto px-4 py-10">
       <h2 className="text-2xl font-semibold mb-6">FAQ</h2>
       <div className="space-y-4">
         {faqData.map((item, index) => (
