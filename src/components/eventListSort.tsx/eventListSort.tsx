@@ -1,131 +1,182 @@
 "use client";
+import { useFilters } from "@/src/hooks/useFilters";
+import Events from "@/src/types/Events";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
-interface Event {
-  id: string;
-  datetime: string;
-  title: string;
-  category: string;
-  price: number;
-  location: string;
-}
-
 function EventListSort() {
-  const [events, setEvents] = useState<Event[]>([]);
-  const [filteredEvents, setFilteredEvents] = useState<Event[]>([]);
-  const [selectedDate, setSelectedDate] = useState("");
-  const [selectedTitle, setSelectedTitle] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedPrice, setSelectedPrice] = useState("");
-  const [selectedLocation, setSelectedLocation] = useState("");
+  const { filters, setFilters } = useFilters();
+  const [events, setEvents] = useState<Events[]>([]);
 
-  // Завантаження всіх подій
+  // Завантаження подій
   useEffect(() => {
     async function fetchEvents() {
       const res = await fetch("/api/events");
       const data = await res.json();
       setEvents(data);
-      setFilteredEvents(data);
     }
     fetchEvents();
   }, []);
 
-  // Фільтрація з API при кожній зміні select
+  // Підвантаження з API при зміні фільтрів
   useEffect(() => {
-    async function fetchFiltered() {
-      const params = new URLSearchParams();
-
-      if (selectedDate) params.append("date", selectedDate);
-      if (selectedTitle) params.append("title", selectedTitle);
-      if (selectedCategory) params.append("category", selectedCategory);
-      if (selectedPrice) params.append("price", selectedPrice);
-      if (selectedLocation) params.append("location", selectedLocation);
-
-      const res = await fetch(`/api/events?${params.toString()}`);
+    async function fetchFiltered(filters = {}) {
+      const params = new URLSearchParams(filters as Record<string, string>).toString();
+      const res = await fetch(`/api/events?${params}`);
       const data = await res.json();
-      setFilteredEvents(data);
+      setEvents(data);
     }
 
-    fetchFiltered();
-  }, [selectedDate, selectedTitle, selectedCategory, selectedPrice, selectedLocation]);
+    fetchFiltered(filters);
+  }, [filters]);
 
-  // Унікальні значення для списків
-  const dates = [...new Set(events.map(e => e.datetime))];
-  const titles = [...new Set(events.map(e => e.title))];
-  const categories = [...new Set(events.map(e => e.category))];
-  const prices = [...new Set(events.map(e => e.price.toString()))];
-  const locations = [...new Set(events.map(e => e.location))];
+  // Унікальні значення для селектів з ID
+  const uniqueCategories = events.reduce<{ id: string; category: string }[]>(
+    (acc, e) => {
+      if (!acc.some((x) => x.category === e.category)) {
+        acc.push({ id: e.id, category: e.category });
+      }
+      return acc;
+    },
+    []
+  );
+
+  const uniqueLocations = events.reduce<{ id: string; location: string }[]>(
+    (acc, e) => {
+      if (!acc.some((x) => x.location === e.location)) {
+        acc.push({ id: e.id, location: e.location });
+      }
+      return acc;
+    },
+    []
+  );
+
+  const uniqueDates = events.reduce<{ id: string; date: string }[]>(
+    (acc, e) => {
+      const date = new Date(e.datetime).toISOString().split("T")[0];
+      if (!acc.some((x) => x.date === date)) {
+        acc.push({ id: e.id, date });
+      }
+      return acc;
+    },
+    []
+  );
+
+  // Генерація інтервалів для цін
+  const maxPriceValue = Math.max(...events.map((e) => e.price || 0), 100);
+  const priceSteps = Array.from({ length: Math.ceil(maxPriceValue / 5) + 1 }, (_, i) => i * 5);
 
   return (
     <div className="bg-white p-4 m-4 rounded-2xl">
-      {/* Фільтри */}
+      {/* ===== ФІЛЬТРИ ===== */}
       <div className="flex flex-wrap justify-around items-center gap-3 mb-4">
+        {/* Date */}
         <select
-          value={selectedDate}
+          value={filters.date}
           className="bg-border text-gray-600 px-4 py-2 rounded-xl"
-          onChange={(e) => setSelectedDate(e.target.value)}
+          onChange={(e) => setFilters({ ...filters, date: e.target.value })}
         >
           <option value="">Date</option>
-          {dates.map((d) => (
-            <option key={d} value={d}>{d}</option>
+          {uniqueDates.map((d) => (
+            <option key={`date-${d.id}`} value={d.date}>
+              {new Date(d.date).toLocaleDateString("en-EN", {
+                day: "2-digit",
+                month: "short",
+                year: "numeric",
+              })}
+            </option>
           ))}
         </select>
 
+        {/* Category */}
         <select
-          value={selectedTitle}
+          value={filters.category}
           className="bg-border text-gray-600 px-4 py-2 rounded-xl"
-          onChange={(e) => setSelectedTitle(e.target.value)}
-        >
-          <option value="">Title</option>
-          {titles.map((t) => (
-            <option key={t} value={t}>{t}</option>
-          ))}
-        </select>
-
-        <select
-          value={selectedCategory}
-          className="bg-border text-gray-600 px-4 py-2 rounded-xl"
-          onChange={(e) => setSelectedCategory(e.target.value)}
+          onChange={(e) => setFilters({ ...filters, category: e.target.value })}
         >
           <option value="">Category</option>
-          {categories.map((c) => (
-            <option key={c} value={c}>{c}</option>
+          {uniqueCategories.map((c) => (
+            <option key={`cat-${c.id}`} value={c.category}>
+              {c.category}
+            </option>
           ))}
         </select>
 
+        {/* Location */}
         <select
-          value={selectedPrice}
+          value={filters.location}
           className="bg-border text-gray-600 px-4 py-2 rounded-xl"
-          onChange={(e) => setSelectedPrice(e.target.value)}
-        >
-          <option value="">Price</option>
-          {prices.map((p) => (
-            <option key={p} value={p}>{p}</option>
-          ))}
-        </select>
-
-        <select
-          value={selectedLocation}
-          className="bg-border text-gray-600 px-4 py-2 rounded-xl"
-          onChange={(e) => setSelectedLocation(e.target.value)}
+          onChange={(e) => setFilters({ ...filters, location: e.target.value })}
         >
           <option value="">Location</option>
-          {locations.map((l) => (
-            <option key={l} value={l}>{l}</option>
+          {uniqueLocations.map((l) => (
+            <option key={`loc-${l.id}`} value={l.location}>
+              {l.location}
+            </option>
+          ))}
+        </select>
+
+        {/* Min Price */}
+        <select
+          value={filters.minPrice}
+          className="bg-border text-gray-600 px-4 py-2 rounded-xl"
+          onChange={(e) => setFilters({ ...filters, minPrice: e.target.value })}
+        >
+          <option value="">Min price</option>
+          {priceSteps.map((p) => (
+            <option key={`min-${p}`} value={p}>
+              {p}
+            </option>
+          ))}
+        </select>
+
+        {/* Max Price */}
+        <select
+          value={filters.maxPrice}
+          className="bg-border text-gray-600 px-4 py-2 rounded-xl"
+          onChange={(e) => setFilters({ ...filters, maxPrice: e.target.value })}
+        >
+          <option value="">Max price</option>
+          {priceSteps.map((p) => (
+            <option key={`max-${p}`} value={p}>
+              {p}
+            </option>
           ))}
         </select>
       </div>
 
-      {/* Виведення подій */}
+      {/* ===== СПИСОК ПОДІЙ ===== */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {filteredEvents.length > 0 ? (
-          filteredEvents.map((event) => (
-            <div key={event.id} className="border rounded-xl p-4 shadow-sm">
-              <h3 className="font-semibold text-lg">{event.title}</h3>
-              <p className="text-sm text-gray-500">{event.datetime}</p>
-              <p>{event.category}</p>
-              <p>{event.location}</p>
-              <p className="text-green-700 font-medium">{event.price} €</p>
+        {events.length > 0 ? (
+          events.map((e) => (
+            <div
+              key={e.id}
+              className="flex flex-col bg-white rounded-lg border border-border overflow-hidden shadow-sm hover:shadow-md transition"
+            >
+              <div className="bg-secondary h-40 w-full rounded-t-lg" />
+              <div className="p-4 flex flex-col justify-between">
+                <div>
+                  <h3 className="font-semibold italic text-dark mb-2">{e.title}</h3>
+                  <p className="text-gray text-sm">
+                    {new Date(e.datetime).toLocaleDateString("en-EN", {
+                      day: "2-digit",
+                      month: "short",
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    })}{" "}
+                    • {e.location}
+                  </p>
+                  <p className="text-gray-500 text-sm mt-1">Price: {e.price} €</p>
+                </div>
+                <div className="mt-4 self-end">
+                  <Link
+                    href={`/events/${e.id}`}
+                    className="px-4 py-1.5 bg-accent text-white text-sm font-medium rounded-md hover:opacity-90 transition"
+                  >
+                    Подробнее
+                  </Link>
+                </div>
+              </div>
             </div>
           ))
         ) : (
