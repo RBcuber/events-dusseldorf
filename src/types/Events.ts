@@ -6,5 +6,4 @@ export interface Events {
     datetime: string;
     location: string;
     price: number;
-
 }
