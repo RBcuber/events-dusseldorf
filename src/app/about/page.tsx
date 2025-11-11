@@ -13,7 +13,9 @@ export default function HelpPage() {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="border border-gray-300 rounded-lg p-6 bg-gray-50 shadow-md"
+            className={`rounded-lg p-8 shadow-md border ${
+              index === 0 ? "border-blue-400 bg-gray-500" : "border-blue-400 bg-grey-50"
+            }`}
           >
             <div className="text-lg font-medium px-4 py-3">{item.question}</div>
             <div className="mt-4 text-gray-700 text-base px-4">
@@ -33,4 +35,3 @@ export default function HelpPage() {
     </div>
   );
 }
-
