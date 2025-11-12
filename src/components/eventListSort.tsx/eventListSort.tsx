@@ -1,6 +1,5 @@
 "use client";
 import { useFilters } from "@/src/hooks/useFilters";
-import Events from "@/src/types/Events";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import FilterToCategory from "../filters/filtersToCategory";
@@ -9,6 +8,7 @@ import FilterToLocation from "../filters/filterToLocation";
 import FilterToPriceMax from "../filters/filterToPriceMax";
 import FilterToPriceMin from "../filters/filterToPriceMin";
 import { useRouter, useSearchParams } from "next/navigation";
+import Events from "@/src/types/Events";
 
 function EventListSort() {
   const { filters, setFilters } = useFilters();

@@ -1,6 +1,4 @@
 import EventListSort from "@/src/components/eventListSort.tsx/eventListSort";
-import { db } from "@/src/db";
-import { events as eventsDusseldorf } from "@/src/db/schema";
 
 const EventsPage = async ({}) => {
   // const events = await db.select().from(eventsDusseldorf);
