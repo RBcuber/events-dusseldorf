@@ -1,5 +1,8 @@
+"use client";
+
 import EventListSort from "@/src/components/eventListSort.tsx/eventListSort";
 
+export const dynamic = "force-dynamic";
 const EventsPage = async ({}) => {
   // const events = await db.select().from(eventsDusseldorf);
   return (
