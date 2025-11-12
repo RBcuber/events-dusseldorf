@@ -1,11 +1,14 @@
 "use client";
+import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import GoogleSignIn from "../google-sign-in";
 
 export default function Header() {
   const pathname = usePathname();
   const [search, setSearch] = useState("");
+  const { data: session } = useSession();
 
   const links = [
     { href: "/", label: "Home" },
@@ -13,7 +16,6 @@ export default function Header() {
     { href: "/about", label: "About" },
     { href: "/help", label: "FAQ" },
     { href: "/profile", label: "Profile" },
-
   ];
   return (
     <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white shadow-sm">
@@ -21,24 +23,25 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-accent" />
           <span className="text-lg font-medium text-dark">
-           <Link href={"/"}> Event <b>Dusseldorf</b> </Link>
+            <Link href={"/"}>
+              {" "}
+              Event <b>Dusseldorf</b>{" "}
+            </Link>
           </span>
         </div>
-          <nav className="flex gap-6">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`hover:text-accent transition ${
-                  pathname === link.href
-                    ? "text-accent"
-                    : "text-gray"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+        <nav className="flex gap-6">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`hover:text-accent transition ${
+                pathname === link.href ? "text-accent" : "text-gray"
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
       </div>
       <div className="flex items-center gap-4">
         <input
@@ -56,12 +59,7 @@ export default function Header() {
           Create Event
         </Link>
 
-        <Link
-          href="/signup"
-          className="px-4 py-2 rounded-lg bg-accent text-white font-semibold hover:opacity-90 transition"
-        >
-          Sign up
-        </Link>
+        <GoogleSignIn  />
       </div>
     </header>
   );
