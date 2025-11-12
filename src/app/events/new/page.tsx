@@ -1,13 +1,10 @@
-import { getServerSession } from "next-auth";
-import { redirect } from "next/navigation";
 import createEvent from "../../actions/create-events";
-import { authOptions } from "@/src/lib/auth/auth-options";
 
 export default async function CreateEvent() {
-  const session = await getServerSession(authOptions);
-  if (!session || session.user.role !== "admin") {
-    redirect("/"); 
-  }
+  // const session = await getServerSession(authOptions);
+  // if (!session || session.user.role !== "admin") {
+  //   redirect("/"); 
+  // }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 py-10 px-6">

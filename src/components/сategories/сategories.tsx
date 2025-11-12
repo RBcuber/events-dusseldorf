@@ -1,5 +1,5 @@
 "use client";
-import {Events} from "@/src/types/Events";
+import  Events  from "@/src/types/Events";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 

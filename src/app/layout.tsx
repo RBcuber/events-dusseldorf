@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer"; // ⬅️ добавляем импорт футера
+import { FilterProvider } from "../providers/FilterProvider";
 import { Providers } from "./providers/providers";
 
 const geistSans = Geist({
@@ -31,13 +32,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen antialiased`}
       >
         <Providers>
-        {/* Header — сверху на всех страницах */}
-        <Header />
-        <main className="flex-grow">{children}</main>
-        <Footer />
+          <FilterProvider>
+            <Header />
+            <main className="grow">{children}</main>
+            <Footer />
+          </FilterProvider>
         </Providers>
       </body>
-
     </html>
   );
 }
