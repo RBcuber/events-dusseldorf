@@ -13,7 +13,7 @@ export default function GoogleSignIn() {
         <button
           type="button"
           onClick={() => signOut()}
-          className="px-5 py-1 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
+          className="cursor-pointer px-5 py-1 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
         >
           <span >Sign out</span>
           <LogOut />
@@ -22,7 +22,7 @@ export default function GoogleSignIn() {
         <button
           type="button"
           onClick={() => signIn("google")}
-          className="px-5 py-1 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
+          className="cursor-pointer px-5 py-1 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
         >
           <span>Sign in</span>
           <LogIn />
