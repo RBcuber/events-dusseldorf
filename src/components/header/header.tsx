@@ -18,7 +18,7 @@ export default function Header() {
     { href: "/profile", label: "Profile" },
   ];
   return (
-    <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+    <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white shadow-sm">
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-accent" />
