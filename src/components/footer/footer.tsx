@@ -16,7 +16,7 @@ export default function Footer() {
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
           <Link href="/about" className="hover:underline">About</Link>
-          <Link href="/faq" className="hover:underline">FAQ</Link>
+          <Link href="/help" className="hover:underline">FAQ</Link>
           <Link href="/profile" className="hover:underline">Profile</Link>
         </div>
 

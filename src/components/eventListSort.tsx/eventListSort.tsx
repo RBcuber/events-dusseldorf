@@ -7,12 +7,16 @@ import FilterToDate from "../filters/filtersToDate";
 import FilterToLocation from "../filters/filterToLocation";
 import FilterToPriceMax from "../filters/filterToPriceMax";
 import FilterToPriceMin from "../filters/filterToPriceMin";
-import { useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Events from "@/src/types/Events";
 
 function EventListSort() {
   const { filters, setFilters } = useFilters();
   const [events, setEvents] = useState<Events[]>([]);
+  const [allEvents, setAllEvents] = useState<Events[]>([]);
+  const [loaded, setLoaded] = useState(false);
+
+  const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -22,8 +26,17 @@ function EventListSort() {
     const data = await res.json();
     setEvents(data);
   }
-  // Завантаження подій з API
   useEffect(() => {
+    async function loadAllEvents() {
+      const res = await fetch("/api/events");
+      const data = await res.json();
+      setAllEvents(data);
+      setLoaded(true);
+    }
+    loadAllEvents();
+  }, []);
+  useEffect(() => {
+    if (!loaded) return;
     const activeFilters = Object.fromEntries(
       Object.entries(filters).filter(([_, v]) => v !== "")
     ) as Record<string, string>;
@@ -36,6 +49,7 @@ function EventListSort() {
   }, [filters]);
 
   useEffect(() => {
+     if (!loaded) return
     const urlFilters: Record<string, string> = {};
     searchParams.forEach((value, key) => {
       urlFilters[key] = value;
@@ -44,9 +58,8 @@ function EventListSort() {
     if (Object.keys(urlFilters).length > 0) {
       setFilters((prev) => ({ ...prev, ...urlFilters }));
     }
-  }, [searchParams, setFilters]);
+  }, [loaded, searchParams, setFilters]);
 
-  // Підвантаження при зміні фільтрів
   useEffect(() => {
     async function fetchFiltered() {
       const params = new URLSearchParams(
@@ -61,17 +74,19 @@ function EventListSort() {
 
   useEffect(() => {
     return () => {
-      setFilters({
-        date: "",
-        title: "",
-        category: "",
-        location: "",
-        price: "",
-        minPrice: "",
-        maxPrice: "",
-      });
+      if (!pathname.startsWith("/events")) {
+        setFilters({
+          date: "",
+          title: "",
+          category: "",
+          location: "",
+          price: "",
+          minPrice: "",
+          maxPrice: "",
+        });
+      }
     };
-  }, [setFilters]);
+  }, [pathname, setFilters]);
 
   // Генерація кроків ціни
   const maxPriceValue = Math.max(...events.map((e) => e.price || 0), 100);
@@ -84,17 +99,17 @@ function EventListSort() {
     <div className="bg-white p-4 m-4 rounded-2xl">
       <div className="flex flex-wrap justify-around items-center gap-3 mb-4">
         <FilterToDate
-          events={events}
+          events={allEvents}
           filters={filters}
           setFilters={setFilters}
         />
         <FilterToCategory
-          events={events}
+          events={allEvents}
           filters={filters}
           setFilters={setFilters}
         />
         <FilterToLocation
-          events={events}
+          events={allEvents}
           filters={filters}
           setFilters={setFilters}
         />

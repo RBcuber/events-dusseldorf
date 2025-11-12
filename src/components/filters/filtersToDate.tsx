@@ -7,11 +7,13 @@ interface Props {
 }
 
 export default function FilterToDate({ events, filters, setFilters }: Props) {
-  const uniqueDates = events.reduce<{ id: number; date: string }[]>((acc, e) => {
-    const date = new Date(e.datetime).toISOString().split("T")[0];
-    if (!acc.some((x) => x.date === date)) acc.push({ id: e.id, date });
-    return acc;
-  }, []);
+  const uniqueDates = events
+    .reduce<{ id: number; date: string }[]>((acc, e) => {
+      const date = new Date(e.datetime).toISOString().split("T")[0];
+      if (!acc.some((x) => x.date === date)) acc.push({ id: e.id, date });
+      return acc;
+    }, [])
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
   return (
     <select

@@ -1,14 +1,11 @@
 "use client";
-import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 import GoogleSignIn from "../google-sign-in";
+import SearchBar from "../search-bar/search-bar";
 
 export default function Header() {
   const pathname = usePathname();
-  const [search, setSearch] = useState("");
-  const { data: session } = useSession();
 
   const links = [
     { href: "/", label: "Home" },
@@ -17,18 +14,19 @@ export default function Header() {
     { href: "/help", label: "FAQ" },
     { href: "/profile", label: "Profile" },
   ];
+
   return (
-    <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white shadow-sm">
+    <header className="flex justify-between items-center px-10 py-4 sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-accent" />
           <span className="text-lg font-medium text-dark">
-            <Link href={"/"}>
-              {" "}
-              Event <b>Dusseldorf</b>{" "}
+            <Link href="/">
+              Event <b>Düsseldorf</b>
             </Link>
           </span>
         </div>
+
         <nav className="flex gap-6">
           {links.map((link) => (
             <Link
@@ -44,22 +42,14 @@ export default function Header() {
         </nav>
       </div>
       <div className="flex items-center gap-4">
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search events..."
-          className="bg-bg-light text-dark px-4 py-2 rounded-lg outline-none w-48 focus:bg-neutral transition"
-        />
-
+        <SearchBar />
         <Link
           href="/events/new"
           className="px-4 py-2 border border-accent rounded-lg text-accent hover:bg-accent hover:text-white transition font-medium"
         >
           Create Event
         </Link>
-
-        <GoogleSignIn  />
+        <GoogleSignIn />
       </div>
     </header>
   );
