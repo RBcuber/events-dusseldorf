@@ -1,4 +1,5 @@
 import EventTabs from "@/src/components/event-tabs/event-tabs";
+import SimilarEvents from "@/src/components/similar-events/similar-events";
 import { db } from "@/src/db";
 import { events } from "@/src/db/schema";
 import { eq } from "drizzle-orm";
@@ -48,6 +49,9 @@ export default async function Event({
           program="Программа мероприятия появится позже."
           comments={[]}
         />
+      </div>
+      <div>
+        <SimilarEvents category={e.category} id={e.id} />
       </div>
       <div className="pb-20 pt-10 px-18 ">
         <Link

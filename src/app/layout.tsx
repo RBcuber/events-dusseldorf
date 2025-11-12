@@ -33,13 +33,8 @@ export default function RootLayout({
       >
         <Providers>
           <FilterProvider>
-            {/* Header — сверху на всех страницах */}
             <Header />
-
-            {/* Основной контент */}
             <main className="grow">{children}</main>
-
-            {/* Footer — снизу на всех страницах */}
             <Footer />
           </FilterProvider>
         </Providers>
