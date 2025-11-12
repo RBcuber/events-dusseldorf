@@ -1,8 +1,8 @@
 import EventTabs from "@/src/components/event-tabs/event-tabs";
-import SimilarEvents from "@/src/components/similar-events/similar-events";
 import { db } from "@/src/db";
 import { events } from "@/src/db/schema";
 import { eq } from "drizzle-orm";
+import Link from "next/link";
 
 export default async function Event({
   params,
@@ -49,8 +49,13 @@ export default async function Event({
           comments={[]}
         />
       </div>
-      <div>
-        <SimilarEvents category={e.category} id = {e.id}/>
+      <div className="pb-20 pt-10 px-18 ">
+        <Link
+          href={`/events`}
+          className="px-10 py-3.5 bg-accent text-white text-sm font-medium rounded-xl hover:opacity-90 transition"
+        >
+          Вернуться назад
+        </Link>
       </div>
     </div>
   );

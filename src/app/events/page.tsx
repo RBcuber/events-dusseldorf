@@ -1,19 +1,24 @@
-
 import EventListSort from "@/src/components/eventListSort.tsx/eventListSort";
-import EventsList from "@/src/components/eventsList";
+import { Suspense } from "react";
 
-export default function EventsPage() {
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
+const EventsPage = async ({}) => {
+  // const events = await db.select().from(eventsDusseldorf);
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-blue-600">
-      <section className="bg-white/80 dark:bg-gray-900/60 backdrop-blur rounded-lg shadow-md p-6">
-        <h2 className="text-2xl text-center font-bold text-gray-900 dark:text-white mb-4">
-          Events
-        </h2>
+    <Suspense fallback={<div>Loading events...</div>}>
+      <div className="max-w-7xl mx-auto p-6 bg-border">
+        <section className="bg-border dark:bg-gray-900/60 backdrop-blur rounded-lg shadow-md p-6">
+          <h2 className="text-2xl text-center font-bold text-gray-900 dark:text-white mb-4">
+            Events
+          </h2>
 
-        <EventListSort />
-        <EventsList />
-      </section>
-    </div>
+          <EventListSort />
+        </section>
+      </div>
+    </Suspense>
   );
-}
+};
 
+export default EventsPage;
